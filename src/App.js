@@ -2,8 +2,10 @@ import './App.css';
 import User from './components/User';
 import user from './data/user.json';
 import StatSection from './components/StatisticSection';
-//import Statistics from "./components/Statistics"
+import FriendsList from './components/FriendList';
 import statData from './data/statistical-data.json';
+//import FriendsListItem from './components/FriendListItem';
+import friendsData from './data/friends.json';
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         likes={user.stats.likes}
       />
       <StatSection items={statData} />
+      <FriendsList items={friendsData} />
     </div>
   );
 }
