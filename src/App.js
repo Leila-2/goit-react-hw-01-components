@@ -4,7 +4,6 @@ import user from './data/user.json';
 import StatSection from './components/StatisticSection';
 import FriendsList from './components/FriendList';
 import statData from './data/statistical-data.json';
-//import FriendsListItem from './components/FriendListItem';
 import friendsData from './data/friends.json';
 
 function App() {
