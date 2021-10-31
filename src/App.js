@@ -1,12 +1,12 @@
 import './App.css';
-import User from './components/User';
+import User from './components/User/User';
 import user from './data/user.json';
-import StatSection from './components/StatisticSection';
-import FriendsList from './components/FriendList';
+import StatSection from './components/Statistics/StatisticSection';
+import FriendsList from './components/Friends/FriendList';
 import statData from './data/statistical-data.json';
 import friendsData from './data/friends.json';
 import transactions from './data/transactions.json';
-import TransactionSection from './components/TransactionSection';
+import TransactionSection from './components/Transactions/TransactionSection';
 
 function App() {
   return (

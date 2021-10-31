@@ -1,8 +1,9 @@
 import TransactionHistory from './TransactionHistory';
+import s from './Transaction.module.css';
 
 export default function TransactionSection({ items }) {
   return (
-    <table>
+    <table className={s.section}>
       <thead>
         <tr>
           <th>Type</th>
@@ -13,7 +14,7 @@ export default function TransactionSection({ items }) {
 
       <tbody>
         {items.map(item => (
-          <tr key={item.id}>
+          <tr className={s.data} key={item.id}>
             <TransactionHistory
               currency={item.currency}
               amount={item.amount}

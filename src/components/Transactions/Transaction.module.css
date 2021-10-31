@@ -1,0 +1,26 @@
+.section {
+  border: rgb(145, 197, 201), 2px, solid;
+}
+.data {
+  color: rgb(130, 190, 145);
+  font-weight: 600;
+  font-size: 15px;
+}
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+table th {
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+  font-size: 20px;
+  color: rgb(144, 202, 252);
+  font-weight: 800;
+}
+table td {
+  border: 1px solid #dddddd;
+  padding: 5px;
+}
