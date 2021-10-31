@@ -5,6 +5,8 @@ import StatSection from './components/StatisticSection';
 import FriendsList from './components/FriendList';
 import statData from './data/statistical-data.json';
 import friendsData from './data/friends.json';
+import transactions from './data/transactions.json';
+import TransactionSection from './components/TransactionSection';
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
       />
       <StatSection items={statData} />
       <FriendsList items={friendsData} />
+      <TransactionSection items={transactions} />
     </div>
   );
 }
