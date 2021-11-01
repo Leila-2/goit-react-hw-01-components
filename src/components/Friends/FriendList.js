@@ -5,7 +5,11 @@ export default function FriendsList({ items }) {
     <ul className={s.list}>
       {items.map(item => (
         <li key={item.id}>
-          <FriendsListItem avatar={item.avatar} name={item.name} />
+          <FriendsListItem
+            avatar={item.avatar}
+            name={item.name}
+            isOnline={item.isOnline}
+          />
         </li>
       ))}
     </ul>
